@@ -1,0 +1,21 @@
+/* src/styles/Portfolio.css */
+.portfolio {
+  padding: 20px;
+}
+
+.slide {
+  text-align: center;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slide h3 {
+  margin-top: 20px;
+}
+
+.slide p {
+  margin-bottom: 20px;
+}
