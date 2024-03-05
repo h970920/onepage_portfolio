@@ -4,21 +4,32 @@ import "../styles/Content.css";
 
 const Content = () => {
   return (
-    <section className="content">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
-        velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate
-        commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed
-        eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam
-        nec dui.
-      </p>
-      <p>
-        Curabitur ligula sapien, tincidunt non, euismod vitae, posuere
-        imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed
-        cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus
-        accumsan cursus velit.
-      </p>
-    </section>
+    <div>
+      <section id="about" className="content">
+        <h2>About Me</h2>
+        {/* 내용 추가 */}
+      </section>
+      <section id="experience" className="content">
+        <h2>Experience</h2>
+        {/* 내용 추가 */}
+      </section>
+      <section id="skills" className="content">
+        <h2>Skills</h2>
+        {/* 내용 추가 */}
+      </section>
+      <section id="certifications" className="content">
+        <h2>Certifications</h2>
+        {/* 내용 추가 */}
+      </section>
+      <section id="portfolio" className="content">
+        <h2>Portfolio</h2>
+        {/* 내용 추가 */}
+      </section>
+      <section id="contact" className="content">
+        <h2>Contact</h2>
+        {/* 내용 추가 */}
+      </section>
+    </div>
   );
 };
 

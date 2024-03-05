@@ -1,7 +1,45 @@
-/* src/components/Header.css */
+/* src/styles/Header.css */
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* src/styles/Content.css */
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
 }
