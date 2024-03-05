@@ -8,26 +8,26 @@ const Footer = () => {
       <div className="container">
         <div className="contact-info">
           <h3>Contact</h3>
-          <p>Email: example@example.com</p>
-          <p>Phone: 123-456-7890</p>
+          <p>Email: h970920@naver.com</p>
+          <p>Phone: 010-2269-0920</p>
         </div>
         <div className="social-links">
           <h3>Follow Us</h3>
           <ul>
             <li>
-              <a href="#">Facebook</a>
-            </li>
-            <li>
-              <a href="#">Twitter</a>
-            </li>
-            <li>
               <a href="#">Instagram</a>
+            </li>
+            <li>
+              <a href="#">GitHub</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; 2024 Why Me? All rights reserved.</p>
+        <p>&copy; 2024 Onest All rights reserved.</p>
       </div>
     </footer>
   );
