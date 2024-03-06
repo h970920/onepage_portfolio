@@ -1,6 +1,9 @@
 // src/components/Footer.js
 import React from "react";
 import "../styles/Footer.css";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaBloggerB } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -15,13 +18,22 @@ const Footer = () => {
           <h3>Follow Us</h3>
           <ul>
             <li>
-              <a href="#">Instagram</a>
+              <a className="" href="#">
+                <FaInstagram />
+                Instagram
+              </a>
             </li>
             <li>
-              <a href="#">GitHub</a>
+              <a href="#">
+                <FaGithub />
+                GitHub
+              </a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#">
+                <FaBloggerB />
+                Blog
+              </a>
             </li>
           </ul>
         </div>
