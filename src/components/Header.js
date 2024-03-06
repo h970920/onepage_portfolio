@@ -5,28 +5,21 @@ import "../styles/Header.css";
 const Header = () => {
   return (
     <header>
-      <h1>Why Me?</h1>
       <nav>
-        <ul>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#certifications">Certifications</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+        <div className="nav">
+          <button className="button button--ujarak button--border-thin button--text-thick">
+            {"About Me"}
+          </button>
+          <button className="button button--ujarak button--border-thin button--text-thick">
+            {"Experience"}
+          </button>
+          <button className="button button--ujarak button--border-thin button--text-thick">
+            {"Portfolio"}
+          </button>
+          <button className="button button--ujarak button--border-thin button--text-thick">
+            {"Contact"}
+          </button>
+        </div>
       </nav>
     </header>
   );

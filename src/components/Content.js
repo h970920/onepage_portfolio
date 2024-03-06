@@ -25,10 +25,6 @@ const Content = () => {
         <h2>Portfolio</h2>
         {/* 내용 추가 */}
       </section>
-      <section id="contact" className="content">
-        <h2>Contact</h2>
-        {/* 내용 추가 */}
-      </section>
     </div>
   );
 };
